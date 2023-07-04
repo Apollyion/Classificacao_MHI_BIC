@@ -1,1 +1,1 @@
-('L', 'AN', 'BP', 'D_3.0', 'I_1.0', 'BR', 'BU', 'BV', 'BX', 'BY', 'CC', 'CG', 'CH', 'CI', 'CJ', 'CL', 'CQ')
+('AC', 'AS', 'AY', 'D_1.0', 'AB_1.0', 'AB_3.0', 'BR', 'BS', 'BX', 'CC', 'CJ', 'CQ', 'CR', 'CS')
