@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e903a7-974b-4231-ae0a-2687c32cbe40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Codigos-Desenvolvimento/BANCO DE DADOS - INVERTIDO - 24 de Agosto 2019.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codigos-Desenvolvimento/Ganhos_Informacao.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relatorios/Relatorio Atualizado - Classificação MHI - BIC_Modficiado (convert.io).docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pesquisa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pesquisa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codigos-Desenvolvimento/geraGraficos.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codigos-Desenvolvimento/geraGraficos.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nome_atributo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nome_atributo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/BASE1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/BASE2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/BASE3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/BASE4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/Classes_WHOQOL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/ISM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/Notacao.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/SocioDemo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/TratamentoDaBase.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Dados-Lucas-Santos/WHOQOL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Datasets/BANCO DE DADOS - INVERTIDO - 24 de Agosto 2019.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Tratamento_DB.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classificacao_WHOQOL/Tunning_Modelos_Geral.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "Excel (xlsx)",
-    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/apo-pc/OneDrive - Universidade Federal do Ceará/Faculdade/Bolsa IC - Algebra Tensorial",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Excel (xlsx)&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/apo-pc/OneDrive - Universidade Federal do Ceará/Faculdade/Bolsa IC - Algebra Tensorial&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\apo-pc\Documents\Github\Classificacao_MHI_BIC\Codigos-Desenvolvimento" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\apo-pc\Documents\Github\Classificacao_MHI_BIC\Classificacao_WHOQOL\Datasets" />
+      <recent name="C:\Users\apo-pc\Documents\Github\Classificacao_MHI_BIC\Classificacao_WHOQOL" />
+      <recent name="C:\Users\apo-pc\Documents\Github\Classificacao_MHI_BIC\Classificacao_WHOQOL\Codigos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
