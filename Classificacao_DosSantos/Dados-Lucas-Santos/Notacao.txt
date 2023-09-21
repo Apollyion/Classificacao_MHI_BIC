@@ -1,0 +1,9 @@
+BASE1 = SOCIODEMOGRÁFICO
+BASE2 = [SOCIODEMOGRÁFICO ISM_GLOBAL]
+BASE3 = [SOCIODEMOGRÁFICO ISM_Ansiedade ISM_Depressao ISM_Emocional ISM_Afeto ISM_Lacos]
+BASE4 = [SOCIODEMOGRÁFICO ISM]
+
+
+ISM_GLOBAL = somatório de todas as respostas
+
+ISM_Ansiedade e demais = somatório das respostas por área
