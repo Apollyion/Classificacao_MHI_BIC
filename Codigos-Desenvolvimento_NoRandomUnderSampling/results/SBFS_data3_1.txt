@@ -1,0 +1,2 @@
+Selected Features: U, AE, AU, AX, AY, D_1.0, E_3.0, J_2.0, AA_1.0, CR, CS
+Score: 0.7890311986863712

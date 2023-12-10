@@ -1,0 +1,2 @@
+Selected Features: I_4.0, AA_2.0, AA_3.0, BU, BV, CA, CS
+Score: 0.7993497536945814

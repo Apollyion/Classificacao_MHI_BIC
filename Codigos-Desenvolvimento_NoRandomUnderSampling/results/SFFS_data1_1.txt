@@ -1,0 +1,2 @@
+Selected Features: F, H, N, O, AN, AT, AZ, BD, BO, BP, D_4.0, D_5.0, E_3.0, E_4.0, J_1.0, J_2.0, J_4.0, AA_1.0, AA_2.0, AB_0.0
+Score: 0.678863711001642
