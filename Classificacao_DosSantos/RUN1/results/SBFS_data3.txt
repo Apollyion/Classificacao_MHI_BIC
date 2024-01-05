@@ -1,0 +1,2 @@
+Selected Features: C, 24, 44, 51
+Score: 0.7400816326530611

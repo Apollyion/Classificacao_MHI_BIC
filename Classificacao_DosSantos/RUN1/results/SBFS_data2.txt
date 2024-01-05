@@ -1,0 +1,2 @@
+Selected Features: C, U, AC, AD, AV, D_4.0, E_2.0, 171
+Score: 0.7522448979591836
