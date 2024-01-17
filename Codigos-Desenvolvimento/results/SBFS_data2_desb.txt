@@ -1,1 +1,2 @@
-('N', 'O', 'D_3.0', 'E_3.0', 'AA_3.0', 'AA_4.0', 'BU', 'BV', 'BW', 'BX', 'BZ', 'CD', 'CJ', 'CQ', 'CS', 'CU')
+Selected Features: N, AC, AN, AV, AZ, E_4.0, J_3.0, AB_3.0, AB_4.0, BS, BW, BX, CC, CD, CH, CJ, CK, CS
+Score: 0.826382322713258

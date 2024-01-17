@@ -1,2 +1,0 @@
-Selected Features: N, O, D_3.0, E_3.0, AA_3.0, AA_4.0, BU, BV, BW, BX, BZ, CD, CJ, CQ, CS, CU
-Score: 0.8177011494252874

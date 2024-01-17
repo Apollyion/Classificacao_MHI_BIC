@@ -1,2 +1,0 @@
-Selected Features: AZ, D_2.0, D_4.0, I_4.0, J_4.0, AA_1.0, AA_2.0, BR, BS, BW, BY, CA, CD, CH, CK, CP, CS
-Score: 0.8120065681444991

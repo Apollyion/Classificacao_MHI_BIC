@@ -1,11 +1,11 @@
-Acurácia
-0.40350877192982454
-0.3508771929824561
-0.3333333333333333
-0.47368421052631576
-0.2982456140350877
-0.2631578947368421
-0.3508771929824561
-0.3684210526315789
-0.3684210526315789
-0.38596491228070173
+Modelo,Acurácia,Parâmetros
+Random Forest,0.5087719298245614,"{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 6, 'max_features': 16, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 24, 'n_jobs': 16, 'oob_score': False, 'random_state': 13, 'verbose': 0, 'warm_start': False}"
+SVM,0.5017543859649123,"{'C': 10000, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 4, 'gamma': 1e-05, 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': 13, 'shrinking': True, 'tol': 0.001, 'verbose': False}"
+MLP,0.4736842105263158,"{'activation': 'relu', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': False, 'epsilon': 1e-08, 'hidden_layer_sizes': (458, 458, 458), 'learning_rate': 'constant', 'learning_rate_init': 0.0001, 'max_fun': 15000, 'max_iter': 2484, 'momentum': 0.3666666666666667, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': 13, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}"
+XGBoost,0.5263157894736842,"{'objective': 'multi:softprob', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.6111111111111112, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.6666666666666666, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.5556, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 18, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 24, 'n_jobs': 16, 'num_parallel_tree': None, 'random_state': 13, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': 0.7000000000000001, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}"
+KNN,0.44561403508771924,"{'algorithm': 'kd_tree', 'leaf_size': 47, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': 16, 'n_neighbors': 21, 'p': 3, 'weights': 'uniform'}"
+ADA,0.49824561403508777,"{'algorithm': 'SAMME', 'base_estimator': 'deprecated', 'estimator': None, 'learning_rate': 0.10434482758620689, 'n_estimators': 236, 'random_state': 13}"
+NVB,0.39999999999999997,"{'priors': None, 'var_smoothing': 0.33898305094406783}"
+LR,0.5017543859649123,"{'C': 0.5718571428571428, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': 0.3333333333333333, 'max_iter': 1050, 'multi_class': 'auto', 'n_jobs': 16, 'penalty': 'l1', 'random_state': 13, 'solver': 'saga', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}"
+DT,0.45964912280701753,"{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 18, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 0.16473684210526315, 'min_samples_split': 0.6352631578947369, 'min_weight_fraction_leaf': 0.0, 'random_state': 13, 'splitter': 'best'}"
+EXT,0.4807017543859649,"{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 5, 'max_features': 29, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 32, 'n_jobs': 16, 'oob_score': False, 'random_state': 13, 'verbose': 0, 'warm_start': False}"

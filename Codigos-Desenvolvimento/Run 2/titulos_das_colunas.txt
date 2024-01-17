@@ -1,0 +1,651 @@
+Título da Coluna: Nome Completo
+Coordenada: A
+Questionario: Sociodemografico
+
+Título da Coluna: Sexo
+Coordenada: B
+Questionario: Sociodemografico
+
+Título da Coluna: Idade
+Coordenada: C
+Questionario: Sociodemografico
+
+Título da Coluna: Raça(Parda)
+Coordenada: D_1.0
+Questionario: Sociodemografico
+
+Título da Coluna: Raça(Preta)
+Coordenada: D_2.0
+Questionario: Sociodemografico
+
+Título da Coluna: Raça(Branca)
+Coordenada: D_3.0
+Questionario: Sociodemografico
+
+Título da Coluna: Raça(Amarela)
+Coordenada: D_4.0
+Questionario: Sociodemografico
+
+Título da Coluna: Raça(Não sabe)
+Coordenada: D_5.0
+Questionario: Sociodemografico
+
+Título da Coluna: Situação Civil
+Coordenada: E
+Questionario: Sociodemografico
+
+Título da Coluna: Situação Civil(Solteiro)
+Coordenada: E_1.0
+Questionario: Sociodemografico
+
+Título da Coluna: Situação Civil(Casado)
+Coordenada: E_2.0
+Questionario: Sociodemografico
+
+Título da Coluna: Situação Civil(União estável)
+Coordenada: E_3.0
+Questionario: Sociodemografico
+
+Título da Coluna: Situação Civil(Viúvo)
+Coordenada: E_4.0
+Questionario: Sociodemografico
+
+Título da Coluna: Local de origem(Sobral)
+Coordenada: F
+Questionario: Sociodemografico
+
+Título da Coluna: Local de Residência(Sobral)
+Coordenada: G
+Questionario: Sociodemografico
+
+Título da Coluna: Caso sua cidade de origem não seja Sobral. Com que frequência viaja para ela?
+Coordenada: H
+Questionario: Sociodemografico
+
+Título da Coluna: Atualmente reside com:
+Coordenada: I
+Questionario: Sociodemografico
+
+Título da Coluna: Reside com Familiares
+Coordenada: I_1.0
+Questionario: Sociodemografico
+
+Título da Coluna: Reside Sozinho
+Coordenada: I_2.0
+Questionario: Sociodemografico
+
+Título da Coluna: Reside em Republica Estudantil
+Coordenada: I_3.0
+Questionario: Sociodemografico
+
+Título da Coluna: Reside com Amigos/Colegas
+Coordenada: I_4.0
+Questionario: Sociodemografico
+
+Título da Coluna: Qual a sua religião?
+Coordenada: J
+Questionario: Sociodemografico
+
+Título da Coluna: Religião(Católica)
+Coordenada: J_1.0
+Questionario: Sociodemografico
+
+Título da Coluna: Religião(Evangélica)
+Coordenada: J_2.0
+Questionario: Sociodemografico
+
+Título da Coluna: Religião(Testemunha de Jeová)
+Coordenada: J_3.0
+Questionario: Sociodemografico
+
+Título da Coluna: Religião(Espírita)
+Coordenada: J_4.0
+Questionario: Sociodemografico
+
+Título da Coluna: Religião(Outras/Sem religião)
+Coordenada: J_5.0
+Questionario: Sociodemografico
+
+Título da Coluna: Qual o curso de graduação cursa na UVA:
+Coordenada: K
+Questionario: Sociodemografico
+
+Título da Coluna: Em que semestre você está matriculado
+Coordenada: L
+Questionario: Sociodemografico
+
+Título da Coluna: Quantas disciplinas e/ou módulos está cursando no semestre em questão?
+Coordenada: M
+Questionario: Sociodemografico
+
+Título da Coluna: Já reprovou alguma disciplina/ modulo?
+Coordenada: N
+Questionario: Sociodemografico
+
+Título da Coluna: Considera seu curso estressante?
+Coordenada: O
+Questionario: Sociodemografico
+
+Título da Coluna: 14. 1 - Indique  os principais fatores de estresse:
+Coordenada: P
+Questionario: Sociodemografico
+
+Título da Coluna: Fator 1 (Materias)
+Coordenada: Q
+Questionario: Sociodemografico
+
+Título da Coluna: Fator 2 (Didatica)
+Coordenada: R
+vQuestionario: Sociodemografico
+
+Título da Coluna: Fator 3(Provas)
+Coordenada: S
+Questionario: Sociodemografico
+
+Título da Coluna: Fator 4(Extra-Curriculares)
+Coordenada: T
+Questionario: Sociodemografico
+
+Título da Coluna: Já se afastou dos estudos?
+Coordenada: U
+Questionario: Sociodemografico
+
+Título da Coluna: 15. 1 - Qual motivo do afastamento:
+Coordenada: V
+Questionario: Sociodemografico
+
+Título da Coluna: Saúde
+Coordenada: W
+Questionario: Sociodemografico
+
+Título da Coluna: Financeiro
+Coordenada: X
+Questionario: Sociodemografico
+
+Título da Coluna: Trabalho
+Coordenada: Y
+Questionario: Sociodemografico
+
+Título da Coluna: OUTROS
+Coordenada: BC
+Questionario: Sociodemografico
+
+Título da Coluna: Em que turno você está frequentando a maior parte das disciplinas?
+Coordenada: AA
+Questionario: Sociodemografico
+
+Título da Coluna: Turno(Matutino)
+Coordenada: AA_1.0
+Questionario: Sociodemografico
+
+Título da Coluna: Turno(Vespertino)
+Coordenada: AA_2.0
+Questionario: Sociodemografico
+
+Título da Coluna: Turno(Noturno)
+Coordenada: AA_3.0
+Questionario: Sociodemografico
+
+Título da Coluna: Turno(Integral)
+Coordenada: AA_4.0
+Questionario: Sociodemografico
+
+Título da Coluna: Qual o transporte você utiliza para chegar a Universidade:
+Coordenada: AB
+Questionario: Sociodemografico
+
+Título da Coluna: Transporte para à Universidade(A pé)
+Coordenada: AB_0.0
+Questionario: Sociodemografico
+
+Título da Coluna: Transporte para à Universidade(A pé/ carona/ bicicleta)
+Coordenada: AB_1.0
+Questionario: Sociodemografico
+
+Título da Coluna: Transporte para à Universidade(Transporte coletivo)
+Coordenada: AB_2.0
+Questionario: Sociodemografico
+
+Título da Coluna: Transporte para à Universidade(Transporte próprio)
+Coordenada: AB_3.0
+Questionario: Sociodemografico
+
+Título da Coluna: Transporte para à Universidade(Moto-taxi)
+Coordenada: AB_4.0
+Questionario: Sociodemografico
+
+Título da Coluna: Realiza atividades profissionais?
+Coordenada: AC
+Questionario: Sociodemografico
+
+Título da Coluna: Realiza atividades acadêmicas?
+Coordenada: AD
+Questionario: Sociodemografico
+
+Título da Coluna: Recebe Bolsas ou Auxílio Universitário?
+Coordenada: AE
+Questionario: Sociodemografico
+
+Título da Coluna: Caso receba, especifique qual ou quais
+Coordenada: AF
+Questionario: Sociodemografico
+
+Título da Coluna: PIBID
+Coordenada: AG
+Questionario: Sociodemografico
+
+Título da Coluna: RESIDÊNCIA UNIVERSITÁRIA
+Coordenada: AH
+Questionario: Sociodemografico
+
+Título da Coluna: PBPU
+Coordenada: AI
+Questionario: Sociodemografico
+
+Título da Coluna: INICIAÇÃO CIÊNTIFICA
+Coordenada: AJ
+Questionario: Sociodemografico
+
+Título da Coluna: RESIDÊNCIA PEDAGÓGICA
+Coordenada: AK
+Questionario: Sociodemografico
+
+Título da Coluna: BOLSA UNIVERSITÁRIA SOBRAL
+Coordenada: AL
+Questionario: Sociodemografico
+
+Título da Coluna: OUTRAS
+Coordenada: AM
+Questionario: Sociodemografico
+
+Título da Coluna: Realiza atividade física de forma regular?
+Coordenada: AN
+Questionario: Sociodemografico
+
+Título da Coluna: Frequencia atividade fisica (por semana)?
+Coordenada: AO
+Questionario: Sociodemografico
+
+Título da Coluna: Horas de lazer diaria
+Coordenada: AP
+Questionario: Sociodemografico
+
+Título da Coluna: Quais as suas principais atividades de Lazer:
+Coordenada: AQ
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(Dormir)
+Coordenada: AR
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(Ficar com a familia)
+Coordenada: AS
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(Ouvir música)
+Coordenada: AT
+Questionario: Sociodemografico
+
+Título da Coluna:  Atividade de Lazer(Assitir filmes/ séries)
+Coordenada: AU
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(Passear/viajar)
+Coordenada: AV
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(Ler)
+Coordenada: AW
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(At. Fis.)
+Coordenada: AX
+Questionario: Sociodemografico
+
+Título da Coluna: Atividade de Lazer(Outras)
+Coordenada: AY
+Questionario: Sociodemografico
+
+Título da Coluna: Faz uso continuo de algum medicamento para tratamento da saúde?
+Coordenada: AZ
+Questionario: Sociodemografico
+
+Título da Coluna: Qual medicamento?
+Coordenada: BA
+Questionario: Sociodemografico
+
+Título da Coluna: Faz uso de ANTI-DEPRESIVO
+Coordenada: BB
+Questionario: Sociodemografico
+
+Título da Coluna: Fez uso de substância psicoativa nos últimos 3 meses?
+Coordenada: BD
+Questionario: Sociodemografico
+
+Título da Coluna: Qual substancia psicoativa?
+Coordenada: BE
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Alcoolica)
+Coordenada: BF
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Tabaco
+Coordenada: BG
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Maconha
+Coordenada: BH
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Drg. Estimulante)
+Coordenada: BI
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Drg. Inalante)
+Coordenada: BJ
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Hipnotico/Sedativo)
+Coordenada: BK
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Alucinogenos)
+Coordenada: BL
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Opóides)
+Coordenada: BM
+Questionario: Sociodemografico
+
+Título da Coluna: Substancia Psicoativa(Outros)
+Coordenada: BN
+Questionario: Sociodemografico
+
+Título da Coluna: Freq. de uso substancia psicoativa nos ultimos 3 meses ?
+Coordenada: BO
+Questionario: Sociodemografico
+
+Título da Coluna: Qtd. aproximada de horas de sono diárias?
+Coordenada: BP
+Questionario: Sociodemografico
+
+Título da Coluna: WHOQOL
+Coordenada: BQ
+Questionario: WHOQOL
+
+Título da Coluna: Como você avaliaria sua qualidade de vida?
+Coordenada: BR
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com a sua saúde?
+Coordenada: BS
+Questionario: WHOQOL
+
+Título da Coluna: Em que medida você acha que sua dor (física) impede você de fazer o que você precisa?
+Coordenada: BT
+Questionario: WHOQOL
+
+Título da Coluna: O quanto você precisa de algum tratamento médico para levar sua vida diária?
+Coordenada: BU
+Questionario: WHOQOL
+
+Título da Coluna: O quanto você aproveita a vida?
+Coordenada: BV
+Questionario: WHOQOL
+
+Título da Coluna: Em que medida você acha que a sua vida tem sentido?
+Coordenada: BW
+Questionario: WHOQOL
+
+Título da Coluna: O quanto você consegue se concentrar?
+Coordenada: BX
+Questionario: WHOQOL
+
+Título da Coluna: Quão seguro(a) você se sente em sua vida diária?
+Coordenada: BY
+Questionario: WHOQOL
+
+Título da Coluna: Quão saudável é o seu ambiente físico (clima, barulho, poluição, atrativos)?
+Coordenada: BZ
+Questionario: WHOQOL
+
+Título da Coluna: Você tem energia suficiente para seu dia-a- dia?
+Coordenada: CA
+Questionario: WHOQOL
+
+Título da Coluna: Você é capaz de aceitar sua aparência física?
+Coordenada: CB
+Questionario: WHOQOL
+
+Título da Coluna: Você tem dinheiro suficiente para satisfazer suas necessidades?
+Coordenada: CC
+Questionario: WHOQOL
+
+Título da Coluna: Quão disponíveis para você estão as informações que precisa no seu dia-a-dia?
+Coordenada: CD
+Questionario: WHOQOL
+
+Título da Coluna: Em que medida você tem oportunidades de atividade de lazer?
+Coordenada: CE
+Questionario: WHOQOL
+
+Título da Coluna: Quão bem você é capaz de se locomover?
+Coordenada: CF
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com o seu sono?
+Coordenada: CG
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com sua capacidade de desempenhar as atividades do seu dia-a-dia?
+Coordenada: CH
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com sua capacidade para o trabalho?
+Coordenada: CI
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está consigo mesmo?
+Coordenada: CJ
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com suas relações pessoais (amigos, parentes, conhecidos, colegas)?
+Coordenada: CK
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com sua vida sexual?
+Coordenada: CL
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com o apoio que você recebe de seus amigos?
+Coordenada: CM
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com as condições do local onde mora?
+Coordenada: CN
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com o seu acesso aos serviços de saúde?
+Coordenada: CO
+Questionario: WHOQOL
+
+Título da Coluna: Quão satisfeito(a) você está com o seu meio de transporte?
+Coordenada: CP
+Questionario: WHOQOL
+
+Título da Coluna: Com que frequência você tem sentimentos negativos tais como: mau humor, desespero, ansiedade, depressão?
+Coordenada: CQ
+Questionario: WHOQOL
+
+Título da Coluna: DOMINIO 1(FISICO)
+Coordenada: CR
+Questionario: WHOQOL
+
+Título da Coluna: DOMINIO 2(PSICOLOGICO)
+Coordenada: CS
+Questionario: WHOQOL
+
+Título da Coluna: DOMINIO 3( RELAÇÕES SOCIAIS)
+Coordenada: CT
+Questionario: WHOQOL
+
+Título da Coluna: DOMINIO 4( MEIO AMBIENTE)
+Coordenada: CU
+Questionario: WHOQOL
+
+Título da Coluna: MHI
+Coordenada: CV
+Questionario: WHOQOL
+
+Título da Coluna: 1- QUANTO FELIZ E SATISFEITO VOCÊ TEM ESTADO COM A SUA VIDA PESSOAL? 
+Coordenada: CW
+Questionario: WHOQOL
+
+Título da Coluna: 2- DURANTE QUANTO TEMPO SE SENTIU SÓ NO  MÊS PASSADO? 
+Coordenada: CX
+Questionario: WHOQOL
+
+Título da Coluna: 3- COM QUE FREQUÊNCIA SE SENTIU NERVOSO OU APREENSIVO PERANTE COISAS QUE ACONTECERAM, OU PERANTE SITUAÇÕES INESPERADAS, NO ÚLTIMO MÊS? 
+Coordenada: CY
+Questionario: WHOQOL
+
+Título da Coluna: 4- DURANTE O MÊS PASSADO COM QUE FREQUÊNCIA SENTIU QUE TINHA UM FUTURO PROMISSOR E CHEIO DE ESPERANÇA?  
+Coordenada: CZ
+Questionario: WHOQOL
+
+Título da Coluna: 5- COM QUE FREQUÊNCIA, DURANTE O ÚLTIMO MÊS, SENTIU QUE A SUA VIDA NO DIA A DIA ESTAVA CHEIO DE COISAS INTERESSANTES? 
+Coordenada: DA
+Questionario: WHOQOL
+
+Título da Coluna: 6- COM QUE FREQUÊNCIA, DURANTE O ÚLTIMO MÊS, SE SENTIU RELAXADO E SEM TENSÃO? 
+Coordenada: DB
+Questionario: WHOQOL
+
+Título da Coluna: 7- DURANTE O ÚLTIMO MÊS, COM QUE FREQUÊNCIA SENTIU PRAZER NAS COISAS QUE FAZIA? 
+Coordenada: DC
+Questionario: WHOQOL
+
+Título da Coluna: 8- DURANTE O ÚLTIMO MÊS, TEVE ALGUMA VEZ QUE SE QUESTIONOU SE ESTARIA A PERDER A CABEÇA, OU A PERDER O CONTROLE SOBRE OS SEUS ATOS, AS SUAS PALAVRAS, OS SEUS PENSAMENTOS, SENTIMENTOS OU MEMÓRIA? 
+Coordenada: DD
+Questionario: WHOQOL
+
+Título da Coluna: 9- SENTIU-SE DEPRIMIDO DURANTE O ÚLTIMO MÊS? 
+Coordenada: DE
+Questionario: WHOQOL
+
+Título da Coluna: 10- DURANTE O ÚLTIMO MÊS, QUANTAS VEZES SE SENTIU AMADO E QUERIDO? 
+Coordenada: DF
+Questionario: WHOQOL
+
+Título da Coluna: 11- DURANTE QUANTO TEMPO, NO MÊS PASSADO SE SENTIU MUITO NERVOSO? 
+Coordenada: DG
+Questionario: WHOQOL
+
+Título da Coluna: 12- DURANTE O ÚLTIMO MÊS, COM QUE FREQUÊNCIA ESPERAVA TER UM DIA INTERESSANTE AO LEVANTAR-SE? 
+Coordenada: DH
+Questionario: WHOQOL
+
+Título da Coluna: 13- NO ÚLTIMO MÊS, DURANTE QUANTO TEMPO SE SENTIU TENSO E IRRITADO? 
+Coordenada: DI
+Questionario: WHOQOL
+
+Título da Coluna: 14- DURANTE O ÚLTIMO MÊS SENTIU QUE CONTROLAVA PERFEITAMENTE O SEU COMPORTAMENTO, PENSAMENTO, EMOÇÕES E SENTIMENTOS? 
+Coordenada: DJ
+Questionario: WHOQOL
+
+Título da Coluna: 15 - DURANTE O ÚLTIMO MÊS, COM QUE FREQUÊNCIA SENTIU AS MÃOS A TREMER QUANDO FAZIA ALGUMA COISA? 
+Coordenada: DK
+Questionario: WHOQOL
+
+Título da Coluna: 16- DURANTE O ÚLTIMO MÊS, COM QUE FREQUÊNCIA SENTIU QUE VOCÊ NÃO TINHA FUTURO, QUE NÃO TINHA PARA ONDE ORIENTAR A SUA VIDA? 
+Coordenada: DL
+Questionario: WHOQOL
+
+Título da Coluna: 17- DURANTE QUANTO TEMPO, NO MÊS QUE PASSOU, SE SENTIU CALMO E EM PAZ? 
+Coordenada: DM
+Questionario: WHOQOL
+
+Título da Coluna: 18- DURANTE QUANTO TEMPO, NO MÊS QUE PASSOU, SE SENTIU EMOCIONALMENTE ESTÁVEL? 
+Coordenada: DN
+Questionario: WHOQOL
+
+Título da Coluna: 19- DURANTE QUANTO TEMPO, NO MÊS QUE PASSOU, SE SENTIU TRISTE, PRA BAIXO? 
+Coordenada: DO
+Questionario: WHOQOL
+
+Título da Coluna: 20- COM QUE FREQUÊNCIA, NO MÊS PASSADO SE SENTIU COMO SE FOSSE CHORAR? 
+Coordenada: DP
+Questionario: WHOQOL
+
+Título da Coluna: 21- DURANTE O ÚLTIMO MÊS, COM QUE FREQUÊNCIA VOCÊ SENTIU QUE AS OUTRAS PESSOAS SE SENTIRIAM MELHOR SE VOCÊ NÃO EXISTISSE? 
+Coordenada: DQ
+Questionario: WHOQOL
+
+Título da Coluna: 22- QUANTO TEMPO, DURANTE O ÚLTIMO MÊS, SE SENTIU CAPAZ DE RELAXAR SEM DIFICULDADE? 
+Coordenada: DR
+Questionario: WHOQOL
+
+Título da Coluna: 23- NO ÚLTIMO MÊS, DURANTE QUANTO TEMPO SENTIU QUE AS SUAS RELAÇÕES AMOROSAS ERAM TOTAL OU COMPLETAMENTE SATISFATÓRIAS? 
+Coordenada: DS
+Questionario: WHOQOL
+
+Título da Coluna: 24- COM QUE FREQUÊNCIA, DURANTE O ÚLTIMO MÊS, SENTIU QUE TUDO ACONTECIA AO CONTRÁRIO DO QUE DESEJAVA? 
+Coordenada: DT
+Questionario: WHOQOL
+
+Título da Coluna: 25- DURANTE O ÚLTIMO MÊS, QUÃO INCOMODADO É QUE VOCÊ SE SENTIU DEVIDO ESTAR NERVOSO? 
+Coordenada: DU
+Questionario: WHOQOL
+
+Título da Coluna: 26- NO MÊS QUE PASSOU, DURANTE QUANTO TEMPO SENTIU QUE A SUA VIDA ERA UMA AVENTURA MARAVILHOSA? 
+Coordenada: DV
+Questionario: WHOQOL
+
+Título da Coluna: 27- DURANTE QUANTO TEMPO, NO MÊS QUE PASSOU, SE SENTIU TRISTE E PARA BAIXO, DE TAL MODO QUE NADA O CONSEGUIA ANIMAR?  
+Coordenada: DW
+Questionario: WHOQOL
+
+Título da Coluna: 28- DURANTE O ÚLTIMO MÊS, ALGUMA VEZ PENSOU EM ACABAR COM A PRÓPRIA VIDA? 
+Coordenada: DX
+Questionario: WHOQOL
+
+Título da Coluna: 29- NO ÚLTIMO MÊS, DURANTE QUANTO TEMPO SE SENTIU, CANSADO, INQUIETO E IMPACIENTE? 
+Coordenada: DY
+Questionario: WHOQOL
+
+Título da Coluna: 30- NO ÚLTIMO MÊS, DURANTE QUANTO TEMPO SE SENTIU RABUGENTO OU DE MAU HUMOR? 
+Coordenada: DZ
+Questionario: WHOQOL
+
+Título da Coluna: 31- DURANTE QUANTO TEMPO, NO ÚLTIMO MÊS, SE SENTIU ALEGRE, ANIMADO E BEM DISPOSTO?  
+Coordenada: EA
+Questionario: WHOQOL
+
+Título da Coluna: 32 -DURANTE O ÚLTIMO MÊS, COM QUE FREQUÊNCIA SE SENTIU CONFUSO OU PERTURBADO? 
+Coordenada: EB
+Questionario: WHOQOL
+
+Título da Coluna: 33- DURANTE O ÚLTIMO MÊS SENTIU-SE ANSIOSO OU PREOCUPADO? 
+Coordenada: EC
+Questionario: WHOQOL
+
+Título da Coluna: 34- NO ÚLTIMO MÊS DURANTE QUANTO TEMPO SE SENTIU UMA PESSOA FELIZ? 
+Coordenada: ED
+Questionario: WHOQOL
+
+Título da Coluna: 35- COM QUE FREQUÊNCIA DURANTE O ÚLTIMO MÊS, SE SENTIU COM DIFICULDADE EM SE MANTER CALMO? 
+Coordenada: EE
+Questionario: WHOQOL
+
+Título da Coluna: 36- NO ÚLTIMO MÊS, DURANTE QUANTO TEMPO SE SENTIU ESPIRITUALMENTE PARA BAIXO? 
+Coordenada: EF
+Questionario: WHOQOL
+
+Título da Coluna: 37- COM QUE FREQUÊNCIA DURANTE O ÚLTIMO MÊS, ACORDOU DE MANHÃ SENTINDOSE FRESCO E REPOUSADO? 
+Coordenada: EG
+Questionario: WHOQOL
+
+Título da Coluna: 38- DURANTE O ÚLTIMO MÊS, ESTEVE, OU SENTIU-SE DEBAIXO DE GRANDE PRESSÃO OU STRESS? 
+Coordenada: EH
+Questionario: WHOQOL
