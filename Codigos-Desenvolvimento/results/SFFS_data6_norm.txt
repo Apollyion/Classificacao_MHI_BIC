@@ -1,2 +1,0 @@
-Selected Features: B, C, F, L, M, N, O, U, AC, AE, AN, AO, AR, AS, AT, AU, AV, AW, AX, AZ, BD, BP, D_1.0, D_2.0, D_3.0, D_5.0, E_1.0, E_2.0, E_3.0, E_4.0, I_1.0, I_2.0, I_3.0, I_4.0, J_4.0, J_5.0, AA_1.0, AA_3.0, AB_0.0, AB_1.0, AB_2.0, AB_3.0, AB_4.0, 0
-Score: 0.7862589928057555

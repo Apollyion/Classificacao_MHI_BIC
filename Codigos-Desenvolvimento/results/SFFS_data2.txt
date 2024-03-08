@@ -1,2 +1,0 @@
-Selected Features: N, U, AP, AV, AY, D_3.0, E_3.0, I_1.0, AA_2.0, BS, BU, CF, CH, CM, CQ, CR, CS, CT, CU
-Score: 0.8068857589984351

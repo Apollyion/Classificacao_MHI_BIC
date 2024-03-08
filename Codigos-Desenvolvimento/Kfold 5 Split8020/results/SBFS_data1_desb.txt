@@ -1,0 +1,2 @@
+Selected Features: AV, AZ, BP, E_3.0, I_3.0, J_1.0
+Score: 0.6829599177800617

@@ -1,2 +1,0 @@
-Selected Features: F, BP, E_4.0, J_3.0, AA_2.0, BU, CB, CD, CQ, CS, CU
-Score: 0.8123630672926447

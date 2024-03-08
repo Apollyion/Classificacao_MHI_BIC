@@ -1,2 +1,0 @@
-Selected Features: I_4.0, J_4.0, AA_4.0, CS
-Score: 0.7905138746145941
