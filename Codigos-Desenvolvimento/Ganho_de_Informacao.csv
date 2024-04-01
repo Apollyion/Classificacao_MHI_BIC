@@ -1,0 +1,85 @@
+Atributo,Ganho de Informação,Descricao,Questionario
+CS,0.4960856302050835,DOMINIO 2(PSICOLOGICO),WHOQOL
+CR,0.33893080668522146,DOMINIO 1(FISICO),WHOQOL
+CQ,0.3172137151059918,Com que frequência você tem sentimentos negativos tais como,WHOQOL
+CJ,0.3098267515080107,Quão satisfeito(a) você está consigo mesmo?,WHOQOL
+BY,0.2677689007004601,Quão seguro(a) você se sente em sua vida diária?,WHOQOL
+CU,0.2402882345818492,DOMINIO 4( MEIO AMBIENTE),WHOQOL
+BW,0.2300967938677147,Em que medida você acha que a sua vida tem sentido?,WHOQOL
+BS,0.20023642068060632,Quão satisfeito(a) você está com a sua saúde?,WHOQOL
+CA,0.19621271821509195,Você tem energia suficiente para seu dia-a- dia?,WHOQOL
+BV,0.1918127959299305,O quanto você aproveita a vida?,WHOQOL
+CH,0.19054662800122033,Quão satisfeito(a) você está com sua capacidade de desempenhar as atividades do seu dia-a-dia?,WHOQOL
+BR,0.18456495441224183,Como você avaliaria sua qualidade de vida?,WHOQOL
+CT,0.1789729933163042,DOMINIO 3( RELAÇÕES SOCIAIS),WHOQOL
+CB,0.16872552698385743,Você é capaz de aceitar sua aparência física?,WHOQOL
+CK,0.15915420542095837,"Quão satisfeito(a) você está com suas relações pessoais (amigos, parentes, conhecidos, colegas)?",WHOQOL
+BU,0.15313984216052381,O quanto você precisa de algum tratamento médico para levar sua vida diária?,WHOQOL
+BX,0.15142432018267282,O quanto você consegue se concentrar?,WHOQOL
+CI,0.14960145743333236,Quão satisfeito(a) você está com sua capacidade para o trabalho?,WHOQOL
+CG,0.12381075547056919,Quão satisfeito(a) você está com o seu sono?,WHOQOL
+CE,0.09158569571318217,Em que medida você tem oportunidades de atividade de lazer?,WHOQOL
+BZ,0.08972192733661732,"Quão saudável é o seu ambiente físico (clima, barulho, poluição, atrativos)?",WHOQOL
+CL,0.08719114318591736,Quão satisfeito(a) você está com sua vida sexual?,WHOQOL
+BT,0.08456437640010012,Em que medida você acha que sua dor (física) impede você de fazer o que você precisa?,WHOQOL
+CM,0.08274784732824647,Quão satisfeito(a) você está com o apoio que você recebe de seus amigos?,WHOQOL
+CC,0.07950200605567254,Você tem dinheiro suficiente para satisfazer suas necessidades?,WHOQOL
+CD,0.07635851900482102,Quão disponíveis para você estão as informações que precisa no seu dia-a-dia?,WHOQOL
+CN,0.05822293984555976,Quão satisfeito(a) você está com as condições do local onde mora?,WHOQOL
+BP,0.055491552627873995,Qtd. aproximada de horas de sono diárias?,Sociodemografico
+CF,0.049910127904247314,Quão bem você é capaz de se locomover?,WHOQOL
+CP,0.04527148186775065,Quão satisfeito(a) você está com o seu meio de transporte?,WHOQOL
+C,0.03920073852325464,Idade,Sociodemografico
+AZ,0.036363010997603945,Faz uso continuo de algum medicamento para tratamento da saúde?,Sociodemografico
+CO,0.028601210036464264,Quão satisfeito(a) você está com o seu acesso aos serviços de saúde?,WHOQOL
+O,0.02282739691406277,Considera seu curso estressante?,Sociodemografico
+AO,0.021020184152368466,Frequencia atividade fisica (por semana)?,Sociodemografico
+M,0.02029512285883947,Quantas disciplinas e/ou módulos está cursando no semestre em questão?,Sociodemografico
+AP,0.01752790912567283,Horas de lazer diaria,Sociodemografico
+J_5.0,0.01686214470752284,Religião(Outras/Sem religião),Sociodemografico
+AV,0.015995164938113704,Atividade de Lazer(Passear/viajar),Sociodemografico
+BO,0.015834421151067077,Freq. de uso substancia psicoativa nos ultimos 3 meses ?,Sociodemografico
+U,0.014741976975562343,Já se afastou dos estudos?,Sociodemografico
+BD,0.014318444667387797,Fez uso de substância psicoativa nos últimos 3 meses?,Sociodemografico
+H,0.012816256880306444,Caso sua cidade de origem não seja Sobral. Com que frequência viaja para ela?,Sociodemografico
+L,0.012538292321173872,Em que semestre você está matriculado,Sociodemografico
+AS,0.011770028492229079,Atividade de Lazer(Ficar com a familia),Sociodemografico
+J_1.0,0.011434750563422968,Religião(Católica),Sociodemografico
+AN,0.009764298319668074,Realiza atividade física de forma regular?,Sociodemografico
+E_2.0,0.008946693496689612,Situação Civil(Casado),Sociodemografico
+B,0.008394561460885575,Sexo,Sociodemografico
+E_1.0,0.0066826050487547445,Situação Civil(Solteiro),Sociodemografico
+AR,0.006623563642919272,Atividade de Lazer(Dormir),Sociodemografico
+AX,0.005517927845788084,Atividade de Lazer(At. Fis.),Sociodemografico
+AA_1.0,0.0048692663528369096,Turno(Matutino),Sociodemografico
+I_4.0,0.003939050886124784,Reside com Amigos/Colegas,Sociodemografico
+N,0.0037487134968510194,Já reprovou alguma disciplina/ modulo?,Sociodemografico
+AW,0.003629914502051357,Atividade de Lazer(Ler),Sociodemografico
+J_3.0,0.003394125630215238,Religião(Testemunha de Jeová),Sociodemografico
+AT,0.0029424153879141768,Atividade de Lazer(Ouvir música),Sociodemografico
+AY,0.0026462048157199353,Atividade de Lazer(Outras),Sociodemografico
+I_1.0,0.0023846728343939194,Reside com Familiares,Sociodemografico
+AA_2.0,0.002348395930509062,Turno(Vespertino),Sociodemografico
+AB_4.0,0.0021761600116323096,Transporte para à Universidade(Moto-taxi),Sociodemografico
+D_2.0,0.001968950332944891,Raça(Preta),Sociodemografico
+D_4.0,0.0019132179630374224,Raça(Amarela),Sociodemografico
+D_5.0,0.0016718531054568837,Raça(Não sabe),Sociodemografico
+AA_3.0,0.0015176479807464949,Turno(Noturno),Sociodemografico
+J_2.0,0.001227812693981034,Religião(Evangélica),Sociodemografico
+AD,0.0011302377555693632,Realiza atividades acadêmicas?,Sociodemografico
+I_3.0,0.0008835357886907702,Reside em Republica Estudantil,Sociodemografico
+I_2.0,0.0007816339727137189,Reside Sozinho,Sociodemografico
+AB_3.0,0.0007296931424238817,Transporte para à Universidade(Transporte próprio),Sociodemografico
+E_4.0,0.0006923248643697644,Situação Civil(Viúvo),Sociodemografico
+AB_0.0,0.0006923248643697644,Transporte para à Universidade(A pé),Sociodemografico
+AB_1.0,0.000669351406537233,Transporte para à Universidade(A pé/ carona/ bicicleta),Sociodemografico
+AE,0.0005483830083599095,Recebe Bolsas ou Auxílio Universitário?,Sociodemografico
+AA_4.0,0.0004825255044728083,Turno(Integral),Sociodemografico
+J_4.0,0.0004132112689903232,Religião(Espírita),Sociodemografico
+D_1.0,0.0003575293828295134,Raça(Parda),Sociodemografico
+AC,0.00027610231174490796,Realiza atividades profissionais?,Sociodemografico
+F,0.00022379390119930953,Local de origem(Sobral),Sociodemografico
+AB_2.0,0.00019710534969030746,Transporte para à Universidade(Transporte coletivo),Sociodemografico
+AU,0.00014880211744638938,Atividade de Lazer(Assitir filmes/ séries),Sociodemografico
+E_3.0,0.00010224196531792573,Situação Civil(União estável),Sociodemografico
+D_3.0,6.575062828634293e-05,Raça(Branca),Sociodemografico
