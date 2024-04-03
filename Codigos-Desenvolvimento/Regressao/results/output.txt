@@ -1,0 +1,865 @@
+
+
+**Linear Regression Resultados (Antes do Tuning):**
+MSE: 0.0400
+RMSE: 0.1999
+R2: 0.6390
+R2 Ajustado: 0.3020
+
+_Realizando Tuning do Modelo: Linear Regression_
+/tmp/ipykernel_24083/160314183.py:129: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  results = pd.concat([results, pd.DataFrame({
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/model_selection/_search.py:307: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+Tempo de execução: 0.75 segundos.
+**Linear Regression Resultados (Depois do Tuning):**
+Melhores Parametros: {}
+MSE: 0.0400
+RMSE: 0.1999
+R2: 0.6390
+R2 Ajustado: 0.3020
+
+
+**Decision Tree Resultados (Antes do Tuning):**
+MSE: 0.0709
+RMSE: 0.2663
+R2: 0.3589
+R2 Ajustado: -0.2394
+
+_Realizando Tuning do Modelo: Decision Tree_
+Tempo de execução: 1.11 segundos.
+**Decision Tree Resultados (Depois do Tuning):**
+Melhores Parametros: {'splitter': 'best', 'min_samples_split': 0.16631578947368422, 'min_samples_leaf': 0.06157894736842105, 'max_depth': 12, 'criterion': 'absolute_error'}
+MSE: 0.0450
+RMSE: 0.2122
+R2: 0.5929
+R2 Ajustado: 0.2129
+
+
+**Random Forest Resultados (Antes do Tuning):**
+MSE: 0.0381
+RMSE: 0.1951
+R2: 0.6559
+R2 Ajustado: 0.3348
+
+_Realizando Tuning do Modelo: Random Forest_
+Tempo de execução: 13.65 segundos.
+**Random Forest Resultados (Depois do Tuning):**
+Melhores Parametros: {'n_estimators': 51, 'max_features': 27, 'max_depth': 20, 'criterion': 'absolute_error', 'bootstrap': False}
+MSE: 0.0390
+RMSE: 0.1974
+R2: 0.6479
+R2 Ajustado: 0.3192
+
+
+**XGBoost Resultados (Antes do Tuning):**
+MSE: 0.0404
+RMSE: 0.2009
+R2: 0.6353
+R2 Ajustado: 0.2950
+
+_Realizando Tuning do Modelo: XGBoost_
+Tempo de execução: 30.17 segundos.
+**XGBoost Resultados (Depois do Tuning):**
+Melhores Parametros: {'n_estimators': 600, 'min_child_weight': 3, 'max_depth': 3, 'learning_rate': 0.01, 'gamma': 0}
+MSE: 0.0353
+RMSE: 0.1880
+R2: 0.6806
+R2 Ajustado: 0.3825
+
+
+**K-Nearest Neighbors Resultados (Antes do Tuning):**
+MSE: 0.0534
+RMSE: 0.2310
+R2: 0.5179
+R2 Ajustado: 0.0679
+
+_Realizando Tuning do Modelo: K-Nearest Neighbors_
+Tempo de execução: 2.48 segundos.
+**K-Nearest Neighbors Resultados (Depois do Tuning):**
+Melhores Parametros: {'weights': 'distance', 'p': 1, 'n_neighbors': 11, 'leaf_size': 94, 'algorithm': 'brute'}
+MSE: 0.0467
+RMSE: 0.2161
+R2: 0.5779
+R2 Ajustado: 0.1840
+
+
+**Multi-Layer Perceptron (Neural Network) Resultados (Antes do Tuning):**
+MSE: 0.0456
+RMSE: 0.2135
+R2: 0.5880
+R2 Ajustado: 0.2035
+
+_Realizando Tuning do Modelo: Multi-Layer Perceptron (Neural Network)_
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (778) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (778) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2673) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (589) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3810) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3810) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3810) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3810) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3810) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3621) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3621) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3621) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3621) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3621) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (968) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1157) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1157) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1157) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1157) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1157) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2105) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (2105) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1157) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1536) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1536) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1536) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1536) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_base.py:173: RuntimeWarning: overflow encountered in square
+  return ((y_true - y_pred) ** 2).mean() / 2
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/utils/extmath.py:193: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/numpy/core/_methods.py:181: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1536) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1347) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1536) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3242) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3242) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3242) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3242) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (3242) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py:546: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/model_selection/_validation.py:425: FitFailedWarning: 
+65 fits failed out of a total of 500.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+65 fits failed with the following error:
+Traceback (most recent call last):
+  File "/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 732, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 753, in fit
+    return self._fit(X, y, incremental=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 496, in _fit
+    raise ValueError(
+ValueError: Solver produced non-finite parameter weights. The input data may contain large values and need to be preprocessed.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/model_selection/_search.py:976: UserWarning: One or more of the test scores are non-finite: [-8.67543905e+206 -3.11154546e+001  5.26530261e-001              nan
+ -2.31630157e-002 -1.43363026e+002  7.05877171e-001 -5.48916351e+000
+  4.58592636e-001  6.74404570e-001 -6.30906486e+003  4.49762871e-001
+  7.06354765e-001  4.28664523e-001  4.62619798e-001  6.17422319e-001
+ -1.62952425e+000 -5.22295471e+000  6.36355629e-001 -2.64401658e+016
+  4.85248003e-001 -1.23195376e+007  7.06545489e-001  5.15101492e-001
+ -7.43745848e+002              nan  4.01102849e-001  7.06135037e-001
+ -1.78893583e+010 -8.32371461e-001 -6.20978316e+190              nan
+  7.06748475e-001              nan -3.85456604e+008  7.05984633e-001
+  5.71119624e-001  4.69197375e-001              nan  5.15934992e-001
+              nan  5.42187247e-001 -3.44835394e+170 -4.29641129e+185
+  5.10533657e-001  7.06034900e-001  4.21859697e-001 -7.77936158e+008
+ -2.02820827e+152 -1.35186655e+003 -1.29997853e+057              nan
+  4.27819834e-001  7.04976098e-001 -3.41146800e-002 -1.47261022e+001
+ -3.13475715e+014 -1.26771502e+000  5.65960105e-001  7.06368092e-001
+  5.08273190e-001 -3.31475810e+014  6.51832791e-001 -3.90014004e+013
+ -6.74677301e+163  5.16253493e-001  7.06054122e-001 -4.97868929e-003
+ -8.06552166e+004  4.35656027e-001              nan              nan
+ -1.58399232e+007 -3.57567808e+074  4.49599650e-001              nan
+ -4.39799410e+000 -5.32938365e-003  7.04870028e-001 -4.68194203e+005
+  5.15838414e-001 -3.85365416e+076  5.47208777e-001 -1.25933621e-003
+  4.90081928e-001 -1.15509590e+000 -9.20460112e+000              nan
+  4.92030685e-001  5.57383640e-001              nan -4.21593323e-003
+ -1.00749035e-002              nan  6.19664553e-001  5.85322837e-001
+  4.72785961e-001 -3.21454549e-003  4.59264709e-001  4.91442372e-001]
+  warnings.warn(
+/home/apo-pc/anaconda3/envs/bic/lib/python3.11/site-packages/sklearn/model_selection/_search.py:987: RuntimeWarning: overflow encountered in square
+  (array - array_means[:, np.newaxis]) ** 2, axis=1, weights=weights
+Tempo de execução: 11166.57 segundos.
+**Multi-Layer Perceptron (Neural Network) Resultados (Depois do Tuning):**
+Melhores Parametros: {'solver': 'lbfgs', 'momentum': 0.8111111111111111, 'max_iter': 1347, 'learning_rate_init': 0.2223, 'hidden_layer_sizes': (754, 754, 754), 'activation': 'identity'}
+MSE: 0.0399
+RMSE: 0.1997
+R2: 0.6397
+R2 Ajustado: 0.3034
+
+
+**Support Vector Regression (SVR) Resultados (Antes do Tuning):**
+MSE: 0.0374
+RMSE: 0.1935
+R2: 0.6618
+R2 Ajustado: 0.3462
+
+_Realizando Tuning do Modelo: Support Vector Regression (SVR)_
+Usando subset
+Tempo de execução: 1988.43 segundos.
+**Support Vector Regression (SVR) Resultados (Depois do Tuning):**
+Melhores Parametros: {'kernel': 'linear', 'gamma': 'auto', 'coef0': 10, 'C': 0.001}
+MSE: 0.0415
+RMSE: 0.2037
+R2: 0.6250
+R2 Ajustado: 0.2750
+
+Resultados salvos em: 'regression_results.csv'.

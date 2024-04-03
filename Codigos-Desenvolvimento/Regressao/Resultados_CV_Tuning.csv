@@ -1,0 +1,84 @@
+RESULTADOS APÓS TUNING
+Modelo: LinearRegression()
+Cross-Validation Results:
+Mean MSE: 0.0320
+Mean RMSE: 0.1784
+Mean MAE: 0.1383
+Mean R2: 0.7139
+Mean Adjusted R2: 0.4451
+
+
+
+"Modelo: DecisionTreeRegressor(criterion='absolute_error', max_depth=12,"
+"                      min_samples_leaf=0.06157894736842105,"
+                      min_samples_split=0.16631578947368422)
+Cross-Validation Results:
+Mean MSE: 0.0489
+Mean RMSE: 0.2206
+Mean MAE: 0.1742
+Mean R2: 0.5621
+Mean Adjusted R2: 0.1505
+
+
+
+"Modelo: RandomForestRegressor(bootstrap=False, criterion='absolute_error', max_depth=20,"
+"                      max_features=27, n_estimators=51)"
+Cross-Validation Results:
+Mean MSE: 0.0392
+Mean RMSE: 0.1975
+Mean MAE: 0.1558
+Mean R2: 0.6502
+Mean Adjusted R2: 0.3215
+
+
+
+"Modelo: XGBRegressor(base_score=None, booster=None, callbacks=None,"
+"             colsample_bylevel=None, colsample_bynode=None,"
+"             colsample_bytree=None, early_stopping_rounds=None,"
+"             enable_categorical=False, eval_metric=None, feature_types=None,"
+"             gamma=0, gpu_id=None, grow_policy=None, importance_type=None,"
+"             interaction_constraints=None, learning_rate=0.01, max_bin=None,"
+"             max_cat_threshold=None, max_cat_to_onehot=None,"
+"             max_delta_step=None, max_depth=3, max_leaves=None,"
+"             min_child_weight=3, missing=nan, monotone_constraints=None,"
+"             n_estimators=600, n_jobs=None, num_parallel_tree=None,"
+"             predictor=None, random_state=None, ...)"
+Cross-Validation Results:
+Mean MSE: 0.0332
+Mean RMSE: 0.1818
+Mean MAE: 0.1436
+Mean R2: 0.7035
+Mean Adjusted R2: 0.4249
+
+
+
+"Modelo: KNeighborsRegressor(algorithm='brute', leaf_size=94, n_neighbors=11, p=1,"
+                    weights='distance')
+Cross-Validation Results:
+Mean MSE: 0.0418
+Mean RMSE: 0.2038
+Mean MAE: 0.1632
+Mean R2: 0.6279
+Mean Adjusted R2: 0.2783
+
+
+
+"Modelo: MLPRegressor(activation='identity', hidden_layer_sizes=(754, 754, 754),"
+"             learning_rate_init=0.2223, max_iter=1347,"
+"             momentum=0.8111111111111111, solver='lbfgs')"
+Cross-Validation Results:
+Mean MSE: 0.0321
+Mean RMSE: 0.1787
+Mean MAE: 0.1385
+Mean R2: 0.7131
+Mean Adjusted R2: 0.4434
+
+
+
+"Modelo: SVR(C=0.001, coef0=10, gamma='auto', kernel='linear')"
+Cross-Validation Results:
+Mean MSE: 0.0326
+Mean RMSE: 0.1801
+Mean MAE: 0.1402
+Mean R2: 0.7091
+Mean Adjusted R2: 0.4357
