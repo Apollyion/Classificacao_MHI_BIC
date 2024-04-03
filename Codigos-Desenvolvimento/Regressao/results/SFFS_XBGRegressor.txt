@@ -1,0 +1,2 @@
+Selected Features: F, U, AC, AO, AS, AT, AZ, D_4.0, J_1.0, J_2.0, AA_2.0, AA_4.0, AB_1.0, AB_2.0, BU, CB, CD, CI, CM, CO, CQ, CR, CS, CT, CU
+Score: -0.030531592478039042
