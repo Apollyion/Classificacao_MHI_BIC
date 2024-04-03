@@ -1,0 +1,47 @@
+RESULTADOS APOS FEATURE SELECTION,
+SBFS,
+Featuures Selecionadas: 22,
+Resultados:,
+Cross-Validation Results:,
+Mean MSE: 0.0322,
+Mean RMSE: 0.1790,
+Mean MAE: 0.1409,
+Mean R2: 0.7128,
+Mean Adjusted R2: 0.4430,
+,
+SFFS,
+Featuures Selecionadas: 25,
+Cross-Validation Results:,
+Mean MSE: 0.0332,
+Mean RMSE: 0.1818,
+Mean MAE: 0.1436,
+Mean R2: 0.7035,
+Mean Adjusted R2: 0.4249,
+,
+GANHO DE INFORMAÇÃO USANDO REGRESSÃO LINEAR:],
+,
+op 10 Atributos com Maior Coeficiente (Positivo),
+Feature,Coefficient
+CU,1.19E+10
+D_5.0,5.49E+09
+D_2.0,5.49E+09
+D_3.0,5.49E+09
+D_1.0,5.49E+09
+D_4.0,5.49E+09
+CQ,3.51E+09
+CJ,3.51E+09
+BV,3.51E+09
+BW,3.51E+09
+,
+Top 10 Atributos com Menor Coeficiente (Negativo),
+Feature,Coefficient
+CD,-1.48E+09
+CN,-1.48E+09
+CO,-1.48E+09
+J_4.0,-7.67E+09
+J_1.0,-7.67E+09
+J_5.0,-7.67E+09
+J_2.0,-7.67E+09
+J_3.0,-7.67E+09
+CR,-1.02E+10
+CS,-2.10E+10
